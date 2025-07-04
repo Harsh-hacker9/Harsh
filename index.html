@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Typing Master Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Master Pro</h1>
+
+    <div class="timer-settings">
+      <label for="timer-select">Set Timer:</label>
+      <select id="timer-select">
+        <option value="30">30 seconds</option>
+        <option value="60" selected>1 minute</option>
+        <option value="120">2 minutes</option>
+        <option value="180">3 minutes</option>
+        <option value="300">5 minutes</option>
+      </select>
+    </div>
+
+    <div id="text-display" class="text-display"></div>
+
+    <textarea
+      id="input-area"
+      placeholder="Start typing here..."
+    ></textarea>
+
+    <div class="stats">
+      <span>Time: <span id="timer">0.00</span>s</span> |
+      <span>WPM: <span id="wpm">0</span></span> |
+      <span>Accuracy: <span id="accuracy">100</span>%</span>
+    </div>
+
+    <button id="next-btn">Next Paragraph</button>
+
+    <div id="result-container" class="result-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
