@@ -1,1 +1,17 @@
-# Harsh
+# Preview 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Myself</title>
+</head>
+<body>
+    <h1>Harsh Kumar </h1>
+    <p>
+        Harsh Kumar – I am a passionate and motivated developer currently pursuing a Diploma in Computer Science at GPBKT Lucknow. I have a strong interest in building practical solutions through web and mobile applications and enjoy exploring new technologies and programming languages. Over time, I have gained experience in Python, JavaScript, Android development, and basic web development frameworks.
+I am committed to continuous learning and love turning ideas into real-world projects. From developing small apps to automating tasks with scripts, I focus on writing clean, efficient code while keeping usability in mind. I am also interested in problem-solving through algorithms, contributing to open-source projects, and participating in coding challenges to sharpen my skills.
+My goal is to combine my academic knowledge and practical experience to create impactful software solutions and grow as a full-stack developer.
+    </p>
+</body>
+</html>
